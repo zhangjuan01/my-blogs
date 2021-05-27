@@ -52,6 +52,7 @@ memory cache代表使用内存中的缓存，disk cache代表使用硬盘中的�
 ![alt](https://user-gold-cdn.xitu.io/2018/4/19/162db635cbfff69d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 协商缓存失效，返回200和请求结果，如图：
+
 ![alt](https://user-gold-cdn.xitu.io/2018/4/19/162db635cf070ff5?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 同样，协商缓存的标识也是在响应报文的HTTP头中和请求结果一起返回给浏览器的，控制协商缓存的字段分别有：Last-Modified / If-Modified-Since和Etag / If-None-Match，其中Etag / If-None-Match的优先级比Last-Modified / If-Modified-Since高。
