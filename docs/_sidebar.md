@@ -10,3 +10,4 @@
   - [算法实现](_algorithm.md)
   - [docker构建的踩坑记录](_docker_node.md)
   - [浏览器的渲染原理](_browser_render.md)
+  - [script标签的async和defer区别](script_defer_async.md)
